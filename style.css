@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  padding-top: 40px;
+}
+
+/*ulo*/
+.header {
+  padding: 60px 20px;
+  text-align: center;
+  background-image: url("nyancat.gif");
+  background-size: cover;
+  color: white;
+}
+
+.header h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.header p {
+  font-size: 18px;
+}
+
+/*nav*/
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+}
+
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/*frame*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 20%;
+  background-color: #898457;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: rgb(148, 85, 159);
+  padding: 20px;
+}
+
+/*imgs */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.content-images {
+  display: flex;
+  gap: 5px;
+  flex-wrap: nowrap;
+}
+
+.content-images img {
+  width: 50%;
+  border-radius: 20%;
+  height: 10%;
+}
+
+/*FOOTER */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+
+.socials {
+  text-align: center;
+  padding: 10px;
+  margin-top: -30px;
+  background-color: #333;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 25px;
+  font-size: 28px;
+  color: #ffffff;
+  transition: 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #0077ff;
+}
